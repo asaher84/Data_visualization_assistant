@@ -102,9 +102,9 @@ def main():
 
     with st.sidebar:
         st.header("Model Configuration")
-        st.session_state.together_api_key = "09f66b57f4c0b8bf5748bb96492a7e7d71c36f4237bedc67fce3d6fe180af873"
+        st.session_state.together_api_key = ""
         
-        st.session_state.e2b_api_key = "e2b_910e5acdfa990b3f20aa7e75723c10fb499f016b"
+        st.session_state.e2b_api_key = ""
         
         # Add model selection dropdown
         model_options = {
